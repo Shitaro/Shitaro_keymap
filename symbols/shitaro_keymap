@@ -1,0 +1,66 @@
+partial modifier_keys
+xkb_symbols "swapkeys"{
+	key <CAPS> {[Escape,backslash]};
+	key <LCTL> {[Caps_Lock]};
+	key <HENK> {[Control_R]};
+	key <MUHE> {[Return]};	// Muhenkan
+//	key <KANA> {[a]};
+	key <HKTG> {[BackSpace]};	// [Hiragana_Katakana,Romaji]
+//	key <MENU> {[Super_L]}; // [Menu]
+//	key <SPCE> {[space]}; // [space]
+};
+
+xkb_symbols "myDvorak"{
+	key <AE01> {[dollar,asciitilde]}; // [1,exclam]
+	key <AE02> {[ampersand,percent]}; // [2,quotedbl]
+	key <AE03> {[bracketleft,1]}; // [3,numbersign]
+	key <AE04> {[braceleft,2]}; // [4,dollar]
+	key <AE05> {[parenleft,3]}; // [5,percent]
+	key <AE06> {[equal,4]}; // [6,ampersand]
+	key <AE07> {[asterisk,5]}; // [7,apostrophe]
+	key <AE08> {[parenright,6]}; // [8,parenleft]
+	key <AE09> {[braceright,7]}; // [9,parenright]
+	key <AE10> {[bracketright,8]}; // [0]
+	key <AE11> {[plus,9]}; // [minus,equal]
+	key <AE12> {[exclam,0]}; // [asciicircum,asciitilde]
+	key <AE13> {[numbersign,grave]}; // [yen,bar]
+
+	key <AD01> {[semicolon,colon]};	// [q,Q]
+	key <AD02> {[comma,less]}; // [w,W]
+	key <AD03> {[period,greater]}; // [e,E]
+	key <AD04> {[p,P]}; // [r,R]
+	key <AD05> {[y,Y]}; // [t,T]
+	key <AD06> {[f,F]}; // [y,Y]
+	key <AD07> {[g,G]}; // [u,U]
+	key <AD08> {[c,C]}; // [i,I]
+	key <AD09> {[r,R]}; // [o,O]
+	key <AD10> {[l,L]}; // [p,P]
+	key <AD11> {[slash,question]}; // [at,grave]
+	key <AD12> {[at,asciicircum]}; // [bracketleft,braceleft]
+
+	
+	key <AC01> {[a,A]}; // [a,A]
+	key <AC02> {[o,O]}; // [s,S]
+	key <AC03> {[e,E]}; // [d,D]
+	key <AC04> {[u,U]}; // [f,F]
+	key <AC05> {[i,I]}; // [g,G]
+	key <AC06> {[d,D]}; // [h,G]
+	key <AC07> {[h,H]}; // [j,J]
+	key <AC08> {[t,T]}; // [k,K]
+	key <AC09> {[n,N]}; // [l,L]
+	key <AC10> {[s,S]}; // [semicolon,plus]
+	key <AC11> {[minus,underscore]}; // [colon,asterisk]
+	key <AC12> {[backslash,bar]}; // [bracketright,braceright]
+				
+	key <AB01> {[apostrophe,quotedbl]}; // [z,Z]
+	key <AB02> {[q,Q]}; // [x,X]
+	key <AB03> {[j,J]}; // [c,C]
+	key <AB04> {[k,K]}; // [v,V]
+	key <AB05> {[x,X]}; // [b,B]
+	key <AB06> {[b,B]}; // [n,N]
+	key <AB07> {[m,M]}; // [m,M]
+	key <AB08> {[w,W]}; // [comma,less]
+	key <AB09> {[v,V]}; // [period,greater]
+	key <AB10> {[z,Z]}; // [slash,question]
+	key <AB11> {[yen,backslash]}; // [backslash,underscore]
+};
