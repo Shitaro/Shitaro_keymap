@@ -1,10 +1,13 @@
+// /usr/share/X11/xkb/keycodes/evdev
 partial modifier_keys
 xkb_symbols "swapkeys"{
-	key <CAPS> {[Escape,backslash]};
+//	key <CAPS> {[Escape,backslash]};
+	key <CAPS> {[Super_L]};
 	key <LCTL> {[Caps_Lock]};
 	key <HENK> {[Control_R]};
 	key <MUHE> {[Return]};	// Muhenkan
 //	key <KANA> {[a]};
+//	key <HKTG> {[Tab]};	// [Hiragana_Katakana,Romaji]
 	key <HKTG> {[BackSpace]};	// [Hiragana_Katakana,Romaji]
 //	key <MENU> {[Super_L]}; // [Menu]
 //	key <SPCE> {[space]}; // [space]
