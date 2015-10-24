@@ -2,7 +2,8 @@
 partial modifier_keys
 xkb_symbols "swapkeys"{
 //	key <CAPS> {[Escape,backslash]};
-	key <CAPS> {[Super_L]};
+//	key <CAPS> {[Super_L]};
+	key <CAPS> {[Escape]};
 	key <LCTL> {[Caps_Lock]};
 	key <HENK> {[Control_R]};
 	key <MUHE> {[Return]};	// Muhenkan
@@ -65,5 +66,6 @@ xkb_symbols "myDvorak"{
 	key <AB08> {[w,W]}; // [comma,less]
 	key <AB09> {[v,V]}; // [period,greater]
 	key <AB10> {[z,Z]}; // [slash,question]
-	key <AB11> {[yen,backslash]}; // [backslash,underscore]
+	key <AB11> {[Super_L,yen]}; // [backslash,underscore]
+//	key <AB11> {[yen,backslash]}; // [backslash,underscore]
 };
