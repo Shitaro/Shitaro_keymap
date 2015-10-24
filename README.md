@@ -11,6 +11,11 @@
 　したろう配列はローリング・リリースです。安定版は存在しません(今のところ)。  
 １周間も経てば少しキー配列が変わっています。あしからず。  
 
+#　使い方
+xkbcomp -I$HOME/.xkb ~/.xkb/keymap/mykbd $DISPLAY 2> /dev/null  
+
+SandSについてはhttps://github.com/alols/xcape  
+
 # したろう配列の構成
 ## アルファベット
 Dvorak配列を100%使用しております。
