@@ -2,6 +2,10 @@ xkb_keymap {
 	xkb_keycodes  { include "evdev+aliases(qwerty)"	};
 	xkb_types     { include "complete"	};
 	xkb_compat    { include "complete+japan"	};
-	xkb_symbols   { include "pc+jp+inet(evdev)+terminate(ctrl_alt_bksp)+shitaro_keymap(swapkeys)+shitaro_keymap(myDvorak)"};
+	xkb_symbols   { include "pc+jp+inet(evdev)+terminate(ctrl_alt_bksp)+shitaro_keymap(swapkeys)+shitaro_keymap(myDvorak)"
+	replace key <SPCE>{[Shift_R]};
+	modifier_map Shift {<SPCE>};
+	replace key <I253>{[space]};
+	};
 	xkb_geometry  { include "pc(pc105)"	};
 };
